@@ -1,0 +1,101 @@
+.cartContainer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .heading {
+    margin: 20px 0;
+    font-size: 30px;
+  }
+  
+  .cartTotal {
+    background: #fff;
+  }
+  .cartTotal .totalInfo {
+    padding: 20px;
+    text-align: left;
+  }
+  .cartTotal .totalInfo p {
+    font-size: 16px;
+    color: rgb(150, 150, 150);
+  }
+  .cartTotal .totalInfo .price {
+    margin: 10px 0;
+    font-size: 26px;
+  }
+  .cartTotal .totalInfo button {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    background: rgb(7, 161, 28);
+    color: #fff;
+  }
+  
+  .cartContainer .cartItems {
+    width: 60%;
+  }
+  
+  .cartContainer .cartTotal {
+    width: 30%;
+    margin-top: 10px;
+    max-height: 160px;
+  }
+  
+  .Item {
+    width: 100%;
+    display: flex;
+    position: relative;
+    background: #fff;
+    margin: 10px 0;
+  }
+  .Item .itemImg {
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Item .itemImg img {
+    width: 50%;
+  }
+  .Item .itemInfo {
+    width: 70%;
+    padding: 20px;
+    text-align: left;
+  }
+  .Item .itemInfo .itemBtns {
+    margin-top: 10px;
+  }
+  .Item .itemInfo .itemBtns span {
+    margin: 0 10px;
+  }
+  .Item .itemInfo .itemBtns > button {
+    padding: 5px 10px;
+    border: none;
+  
+    cursor: pointer;
+  }
+  
+  .close {
+    margin: 5px 10px;
+  }
+  
+  @media all and (max-width: 480px) {
+    .cartContainer {
+      width: 90%;
+      flex-direction: column;
+    }
+    .Items {
+      width: 100%;
+    }
+  
+    .cartContainer .cartItems {
+      width: 100%;
+    }
+    .cartContainer .cartTotal {
+      width: 100%;
+    }
+  }
+  

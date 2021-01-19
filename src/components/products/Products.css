@@ -1,0 +1,46 @@
+.productContainer {
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px 0;
+}
+.product {
+    min-height: 200px;
+    padding: 20px 10px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+  }
+
+  .imgBox {
+    width: 100%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+  }
+  .imgBox img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .btnContainer {
+    width: 100%;
+    display: flex;
+  }
+ 
+  
+  .btnContainer .addToCart {
+    width: 100%;
+    border: none;
+    background: #000;
+    color: #fff;
+    padding: 10px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

@@ -1,0 +1,46 @@
+.section {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    background: #fff;
+  }
+  
+  .containerImgBox {
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .slider {
+    width: 100%;
+    height: 50vh;
+  }
+  .slide img {
+    width: 20%;
+  }
+  
+
+  
+  @media all and (max-width: 480px) {
+    .container {
+      width: 100%;
+      height: 50vh;
+    }
+    .containerImgBox {
+      width: 100%;
+      height: 20vh;
+    }
+  
+    .slide img {
+      width: 40%;
+    }
+  }
+  
