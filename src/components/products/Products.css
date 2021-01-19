@@ -44,3 +44,12 @@
     justify-content: center;
     align-items: center;
   }
+
+@media all and (max-width: 480px){
+  .navigation {
+    width: 90%;
+  }
+  .productContainer {
+    grid-template-columns: 1fr;
+  }
+}
